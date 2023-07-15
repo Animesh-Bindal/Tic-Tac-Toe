@@ -13,13 +13,17 @@ body{
 nav {
     background-color: black;
     color: rgb(214, 181, 223);
-    height: 70px;
-    font-size: 40px;
+    height: 11vh;
+    /* font-size: 5vw; */
     font-family: 'Playfair Display', serif;
     font-weight: bold;
+    padding-top: 1vw;
+    padding-bottom: 1vw;;
 }
 nav ul li {
     list-style-type: none;
+    font-size:  8vh;;
+
 }
 .container{
     margin-top: 50px;
@@ -65,27 +69,30 @@ nav ul li {
 
 .c2{
     width:40vw;
-    margin-left: 10vw;
-    padding: 0px 30px;
+    margin-left: 4vw;
+    padding: 0vh 2vw;
+}
+.c2 h1{
+    font-size: 3vw;
 }
 .info{
-    font-size: 20px;
+    font-size: 2.5vw;
 }
 .rset{
-    margin-top: 20px;
+    margin-top: 2vh;
 }
 #reset{
-    border-radius: 5px;
-    height:34px;
-    width:72px;
+    border-radius: 1vw;
+    height:5vh;
+    width:9vw;
     background-color: floralwhite;
-    margin-left: 10px;
+    margin-left: 2vw;
     color:black;
     cursor: pointer;
 }
 .imgb{
-    margin-top: 30px;
-    margin-left: 50px;
+    margin-top: 5vh;
+    margin-left: 7vw;
 }
 img{
     width: 0;

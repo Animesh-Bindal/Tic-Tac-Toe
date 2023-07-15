@@ -19,7 +19,7 @@ const win_check = () => {
             console.log("Successful")
             document.querySelector('.info').textContent = b[e[0]].textContent + " Won"
             over= true;
-            document.querySelector(".imgb").getElementsByTagName('img')[0].style.width= "200px";
+            document.querySelector(".imgb").getElementsByTagName('img')[0].style.width= "20vw";
             // document.querySelector(".line").style.transition = `width 1s ease-in-out`
             document.querySelector(".line").style.transform = `translate(${e[3]}vw, ${e[4]}vw) rotate(${e[5]}deg)`
             if((e[0]==0 && e[1]==4 && e[2]==8)||(e[0]==2 && e[1]==4 && e[2]==6)){
